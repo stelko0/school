@@ -1,0 +1,54 @@
+*{
+  padding: 0;
+  margin: 0;
+  
+}
+body{
+  background: #66ff99;
+}
+
+.img-fluid{
+  position: absolute;
+  height: 500px !important;
+  width: 100%
+}
+
+nav > .nav > .container-fluid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-item{
+  font-size: 1.2rem;
+}
+
+.dropdown{
+  font-size: 1.5rem;
+}
+.dropdown > a{
+  font-size: 1.1rem;
+}
+
+.dropdow-item{
+  color: #fff;
+}
+
+.dropdown-menu > .bg-dark{
+  color: #fff;
+} 
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+  .img-fluid{
+    height: auto !important;
+  }
+   
+}
