@@ -31,6 +31,22 @@ nav > .nav > .container-fluid {
   display: flex;
   justify-content: space-between;
 }
+.text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1{
+  position: absolute;
+  color: #fff;
+  font-family: cursive;
+}
+.h5{
+  position: absolute;
+  color: #fff;
+  margin-top: 60px;
+}
 
 .nav-item{
   font-size: 1.2rem;
@@ -123,5 +139,10 @@ main > .container {
   .img-fluid{
     height: auto !important;
   }
-   
+  footer{
+    bottom: auto;
+  }
+   .h5{
+     margin-top: 0;
+   }
 }
