@@ -70,7 +70,6 @@ footer {
 }
 
 main{
-  display: flex;
   position: relative;
   justify-content: center;
   align-items: center;
@@ -80,7 +79,7 @@ main > .container {
   justify-content: center;
   align-items: center;
   display: flex;
-  background: rgb(192, 192, 192);
+  background: rgb(255, 255, 255);
   color: #111;
   text-align: center;
   width: 100%;
@@ -98,6 +97,18 @@ main > .container {
   font-weight: 400;
 }
 
+.yellow-bar{
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  background-color:rgba(255,213,79,1);
+  position: relative;
+  text-align: center;
+}
+.yellow-bar > .btn{
+  margin-left: 20px;
+}
 
 
 
