@@ -22,7 +22,7 @@ body{
   background: #fff;
 }
 
-.img-fluid{
+header > .text > .img-fluid{
   height: 250px !important;
   width: 1920px;
 }
@@ -67,15 +67,17 @@ nav > .nav > .container-fluid {
 .dropdown-menu > .bg-dark{
   color: #fff;
 } 
-
+/* Footer */
 footer {
-  background: #111;
+  background: #212529;
   height: auto;
-  width: 100vw;
+  width: 100%;
   font-family: var(--roboto);
   padding-top: 20px;
   bottom: 0;
-  position: absolute;
+  position: relative;
+  font-family: var(--potta-one);
+  
 }
 .footer-content {
   display: flex;
@@ -84,6 +86,36 @@ footer {
   flex-direction: column;
   text-align: center;
   color: #fff;
+  
+}
+.stelko0u{
+  text-decoration: none;
+  color: #fff;
+  transition: 0.5s;
+  font-size: 1.5rem;
+  
+}
+
+.stelko0u:hover{
+  transition: 0.5s;
+  color: rgb(93, 93, 93);
+}
+
+/* Social Bar */
+.social-bar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-bar i{
+  margin: 10px;
+}
+.fa-instagram{
+  color: rgb(255, 0, 123);
+}
+.fa-instagram:hover{
+  color:  rgb(150, 1, 64)
 }
 
 main{
@@ -137,7 +169,7 @@ main > .container {
 
 
 @media screen and (max-width: 1200px) {
-  .img-fluid{
+  header > .text > .img-fluid{
     height: 100px !important;
   }
   footer{
@@ -146,5 +178,12 @@ main > .container {
    .h5{
      margin-top: 40px;
      font-size: 16px;
+   }
+   .yellow-bar > .btn{
+     margin-left: 0;
+     margin-top: 5px;
+   }
+   footer{
+     font-family: var(--roboto);
    }
 }
